@@ -5,40 +5,49 @@
         <meta charset="utf-8"
     </head>
     <body>
+        <style>
+            .perguntas{
+                color: rgb(68, 0, 255);
+                font-size: 25px;           
+            }
+            .titulo{
+                color: rgb(255, 0, 0);
+            }
+            .subtitulo{
+                color: rgb(247, 0, 255);
+            }
+            .botoes{
+                height: 40px;
+                width: 60px;
+            }
+        </style>
+
         <header>
-            <h1>Exercícios HTML</h1>
-            <h2>A tag p serve para parágrafos</h2>
-            <p>Parágrafo 1</p>
-            <p>Parágrafo 2</p>
-            A tag b serve para deixar o texto em <b>negrito</b>.
-            <p>Agora, vamos testar colocando uma foto:</p> 
-            <h2>Esta arara é linda!!!</h2>
-            <img src="foto.jpeg"/>
-            <ul>
-                <li>Item 1</li>
-            </ul>
+            <h1 class="titulo">HTML & jQuery</h1>
+            <h2>
+                <div class="subtitulo">
+                    Esta arara é linda!!!
+                </div> 
+            </h2>
+            <img src="foto.jpeg"/>            
             <form action="">
+                <div class="perguntas">Essa arara é bonita?</div>  <br>
+                <p></p>
+                <button class="botoes">SIM</button> <br>
+                <p></p>
+                <button class="botoes">NÃO</button> <br>
+                <p></p>
+                <div class="perguntas">Dê um nome para essa arara: <p></p>
+                </div> 
                 <input type="text"> <br>
                 <p></p>
                 <input type="date"> <br>
                 <p></p>
-                <button>
+                <button class="botoes">
                     Enviar
                 </button>
             </form>
             <p></p>
         </header>
-        <nav>
-            <a href="/">Navegação 1</a>
-        </nav>
-        <section id="conteúdo">
-            Conteúdo
-        </section>
-        <aside>
-            Lateral
-        </aside>
-        <footer>
-            Rodapé
-        </footer>
     </body>
 </html
